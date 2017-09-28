@@ -11,10 +11,7 @@ body{
     font-size:.32rem;
     width: 7.5rem;
     max-width: 1080px;
-<<<<<<< HEAD
     background: #F3F3FE;
-=======
->>>>>>> dev
 }
 a{
     text-decoration:none;
@@ -41,7 +38,6 @@ ul,li,ol{
 
 .header{
     height: 0.8rem;
-<<<<<<< HEAD
     background: #fff;
     line-height: 0.8rem;
 }
@@ -60,7 +56,8 @@ ul,li,ol{
         span{
             border-bottom: .06rem solid #617EF6;
             color: #617EF6;
-=======
+        }
+    }
 }
 
 .section{
@@ -88,6 +85,38 @@ ul,li,ol{
         &:nth-child(4){
             .top{
                 background: #4BC670;
+            }
+        }
+    }
+}
+.bottom{
+    width: 95%;
+    margin: 0 auto;
+    background: #fff;
+    padding: .2rem 0;
+    i{
+        display: inline-block;
+        width: 0.48rem;
+        height: 0.54rem;
+        background: url(../img/b.png);
+        vertical-align: middle;
+    }
+    p{
+        span{
+            color: #959595;
+            font-size: .26rem;
+        }
+        &:first-child{
+            i{
+                background-position: -.02rem -.08rem;
+            }
+            span{
+                color: #15AF71
+            }
+        }
+        &:nth-child(2){
+            i{
+                background-position: -.02rem -.7rem;
             }
         }
     }
@@ -123,38 +152,5 @@ ul,li,ol{
         position: absolute;
         bottom: .2rem;
         right: .2rem;
-    }
-}
-.bottom{
-    width: 95%;
-    margin: 0 auto;
-    background: #fff;
-    padding: .2rem 0;
-    i{
-        display: inline-block;
-        width: 0.48rem;
-        height: 0.54rem;
-        background: url(../img/b.png);
-        vertical-align: middle;
-    }
-    p{
-        span{
-            color: #959595;
-            font-size: .26rem;
-        }
-        &:first-child{
-            i{
-                background-position: -.02rem -.08rem;
-            }
-            span{
-                color: #15AF71
-            }
-        }
-        &:nth-child(2){
-            i{
-                background-position: -.02rem -.7rem;
-            }
->>>>>>> dev
-        }
     }
 }
