@@ -1,51 +1,46 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box; }
+/*
+Error: Invalid CSS after "...ground: #F3F3FE": expected "{", was ";"
+        on line 15 of D:\叶晓琪第三单元机试\tacket\css\style.scss
 
-html, body, .wrap {
-  width: 100%;
-  height: 100%; }
+10: body{
+11:     font-size:.32rem;
+12:     width: 7.5rem;
+13:     max-width: 1080px;
+14: <<<<<<< HEAD
+15:     background: #F3F3FE;
+16: =======
+17: >>>>>>> dev
+18: }
+19: a{
+20:     text-decoration:none;
 
-body {
-  font-size: .32rem;
-  width: 7.5rem;
-  max-width: 1080px;
-  background: #F3F3FE; }
-
-a {
-  text-decoration: none;
-  color: #000; }
-
-i, em {
-  font-style: normal; }
-
-b, strong {
-  font-weight: normal; }
-
-ul, li, ol {
-  list-style: none; }
-
-.wrap {
-  display: flex;
-  flex-direction: column; }
-
-.header {
-  height: 0.8rem;
-  background: #fff;
-  line-height: 0.8rem; }
-
-.nav_list {
-  display: flex; }
-  .nav_list li {
-    flex: 1;
-    text-align: center; }
-    .nav_list li span {
-      height: 100%;
-      padding: 0 .1rem;
-      display: inline-block; }
-  .nav_list .li_active span {
-    border-bottom: .06rem solid #617EF6;
-    color: #617EF6; }
-
-/*# sourceMappingURL=style.css.map */
+Backtrace:
+D:\叶晓琪第三单元机试\tacket\css\style.scss:15
+D:/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:1165:in `expected'
+D:/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:1101:in `expected'
+D:/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:1096:in `tok!'
+D:/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:641:in `block'
+D:/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:711:in `declaration_or_ruleset'
+D:/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:661:in `block_child'
+D:/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:653:in `block_contents'
+D:/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:642:in `block'
+D:/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:635:in `ruleset'
+D:/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:660:in `block_child'
+D:/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:653:in `block_contents'
+D:/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:117:in `stylesheet'
+D:/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:42:in `parse'
+D:/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:393:in `_to_tree'
+D:/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:368:in `_render_with_sourcemap'
+D:/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:285:in `render_with_sourcemap'
+D:/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/sass_scss.rb:396:in `run'
+D:/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/sass_scss.rb:62:in `process_result'
+D:/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/base.rb:52:in `parse'
+D:/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/base.rb:19:in `parse!'
+D:/Koala/rubygems/gems/sass-3.4.9/bin/sass:13:in `<top (required)>'
+D:/Koala/bin/sass:18:in `load'
+D:/Koala/bin/sass:18:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"...ground: #F3F3FE\": expected \"{\", was \";\"\A         on line 15 of D:\叶晓琪第三单元机试\tacket\css\style.scss\A \A 10: body{\A 11:     font-size:.32rem;\A 12:     width: 7.5rem;\A 13:     max-width: 1080px;\A 14: <<<<<<< HEAD\A 15:     background: #F3F3FE;\A 16: =======\A 17: >>>>>>> dev\A 18: }\A 19: a{\A 20:     text-decoration:none;"; }
