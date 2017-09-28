@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html, body, .wrap {
+  width: 100%;
+  height: 100%; }
+
+body {
+  font-size: .32rem;
+  width: 7.5rem;
+  max-width: 1080px; }
+
+a {
+  text-decoration: none;
+  color: #000; }
+
+i, em {
+  font-style: normal; }
+
+b, strong {
+  font-weight: normal; }
+
+ul, li, ol {
+  list-style: none; }
+
+.wrap {
+  display: flex;
+  flex-direction: column; }
+
+.header {
+  height: 0.8rem; }
+
+.section {
+  flex: 1;
+  background: #fff;
+  margin-top: 0.2rem; }
+  .section > div {
+    width: 95%;
+    height: auto;
+    border-radius: .2rem;
+    box-shadow: 0 .1rem .1rem #ccc;
+    margin: .3rem auto;
+    border: .02rem solid #ccc;
+    overflow: hidden; }
+    .section > div:nth-child(2) .top {
+      background: #5686F4; }
+    .section > div:nth-child(3) .top {
+      background: #965DF5; }
+    .section > div:nth-child(4) .top {
+      background: #4BC670; }
+
+.top {
+  background: #FD6060;
+  display: flex;
+  justify-content: space-between;
+  position: relative; }
+  .top p {
+    color: #fff;
+    padding: .1rem .2rem; }
+    .top p img {
+      width: 0.44rem;
+      height: 0.52rem;
+      vertical-align: top;
+      margin-top: 0.2rem; }
+    .top p span {
+      font-size: .5rem; }
+      .top p span b {
+        font-size: 1rem; }
+      .top p span i {
+        vertical-align: top; }
+  .top h1 {
+    color: #fff;
+    font-size: .5rem;
+    font-weight: normal;
+    position: absolute;
+    bottom: .2rem;
+    right: .2rem; }
+
+.bottom {
+  width: 95%;
+  margin: 0 auto;
+  background: #fff;
+  padding: .2rem 0; }
+  .bottom i {
+    display: inline-block;
+    width: 0.48rem;
+    height: 0.54rem;
+    background: url(../img/b.png);
+    vertical-align: middle; }
+  .bottom p span {
+    color: #959595;
+    font-size: .26rem; }
+  .bottom p:first-child i {
+    background-position: -.02rem -.08rem; }
+  .bottom p:first-child span {
+    color: #15AF71; }
+  .bottom p:nth-child(2) i {
+    background-position: -.02rem -.7rem; }
+
+/*# sourceMappingURL=style.css.map */
